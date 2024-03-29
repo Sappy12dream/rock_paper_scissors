@@ -20,7 +20,7 @@ impl Choices {
 
     fn to_emoticon(&self) -> &'static str {
         match self {
-            Choices::ROCK => "🗿",
+            Choices::ROCK => "🪨",
             Choices::PAPER => "📃",
             Choices::SCISSORS => "✂️",
         }
@@ -30,7 +30,7 @@ impl Choices {
 fn main() {
   println!("Welcome to Rock, Paper, Scissors!");
   loop{
-    println!("Please choose 🌑 (r)ock, 📃 (p)aper, or ✂️ (s)cissors, or (q)uit:");
+    println!("Please choose 🪨 (r)ock, 📃 (p)aper, or ✂️ (s)cissors, or (q)uit:");
 
     let mut player_choice= String::new();
 
